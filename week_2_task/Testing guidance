@@ -17,10 +17,15 @@ npm start
 #Testing the Functionality:
 
 Add Todo Item: Enter a task in the input field and click "Add Item". The task should appear in the list.
+
 Edit Todo Item: Click the pencil icon next to a task. The task should appear in the input field for editing. Edit the task and submit it again.
+
 Delete Todo Item: Click the trash icon next to a task. The task should be removed from the list.
+
 Mark Todo Item as Complete: Click on a task title to mark it as completed. The task should have a strikethrough and change color.
+
 Clear List: Click the "Clear List" button to remove all tasks from the list.
+
 Filter and Sort: Use the dropdowns to filter and sort tasks by completion status and alphabetical order.
 
 #Check LocalStorage:
