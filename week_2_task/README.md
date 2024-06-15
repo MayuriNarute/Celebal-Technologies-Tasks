@@ -1,8 +1,7 @@
-# Getting Started with Create React App
+# Brief Testing Guidance
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## Clone Repository 
+### `git clone https://github.com/MayuriNarute/Celebal-Technologies-Tasks.git.`
 
 In the project directory, you can run:
 
@@ -29,37 +28,25 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Testing functionality
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Add Todo Item: Enter a task in the input field and click "Add Item". The task should appear in the list.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Edit Todo Item: Click the pencil icon next to a task. The task should appear in the input field for editing. Edit the task and submit it again.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Delete Todo Item: Click the trash icon next to a task. The task should be removed from the list.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Mark Todo Item as Complete: Click on a task title to mark it as completed. The task should have a strikethrough and change color.
 
-## Learn More
+Clear List: Click the "Clear List" button to remove all tasks from the list.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Filter and Sort: Use the dropdowns to filter and sort tasks by completion status and alphabetical order.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Check localstorage
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Open your browser's Developer Tools (usually F12 or right-click > Inspect).
+Go to the Application tab (or Storage in some browsers).
+Under Local Storage, check that your tasks are being saved correctly and persist between page reloads.
 
 ### Deployment
 
