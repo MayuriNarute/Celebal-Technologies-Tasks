@@ -1,0 +1,29 @@
+#root{
+    background-color: rgba(227, 226, 226, 0.059);
+}
+
+#icon{
+    font-size: 25px;
+    
+}
+p{
+    font-size: 18px;
+}
+footer{
+    background-color:  #1c2331;
+}
+footer, section{
+    background-color: #171718;
+}
+.todo-icon span{
+    cursor: pointer;
+}
+
+.completed h6 {
+    text-decoration: line-through;
+    color: gray;
+    cursor: pointer;
+  }
+  li{
+    cursor: pointer;
+  }
